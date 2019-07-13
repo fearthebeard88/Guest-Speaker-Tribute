@@ -16,7 +16,6 @@ app.get("/", (req, res) => {
             msg:
                 "Usage details will follow when I have a chance to write them all out. :-)"
         });
-=======
     const documentation = {
         areas: {
             profile: {
