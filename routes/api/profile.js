@@ -291,7 +291,6 @@ router.put(
             }
 
             const values = ["title", "company", "description"];
-            console.log(index);
             values.map(prop => {
                 profile.experience[index][prop] = req.body[prop];
             });
